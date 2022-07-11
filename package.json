@@ -2,10 +2,11 @@
   "name": "verify-sign",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "server.js",
   "type": "module",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon scripts/server.js"
   },
   "keywords": [],
   "author": "",
@@ -15,6 +16,7 @@
     "hardhat": "^2.10.0"
   },
   "dependencies": {
+    "nodemon": "^2.0.19",
     "web3": "^1.7.4"
   }
 }
